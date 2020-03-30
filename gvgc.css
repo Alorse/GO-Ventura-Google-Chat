@@ -195,9 +195,13 @@
 /* message timestamp */
 
 /* likes */
- .dIC9Jb {
+.dIC9Jb {
     background-color: #1d2021;
-    border: 0px;
+    border: 1px solid #666;
+}
+/* likes hover */
+.dIC9Jb:hover {
+    box-shadow: 0 1px 2px 0 rgba(195,191,189,0.30), 0 1px 3px 1px rgba(195,191,189,0.15); 
 }
 /** follow */
  .yg4pvb::before {
@@ -368,9 +372,7 @@ div .mUbCce:hover, div .mUbCce:focus {
 .o50UJf, .rEu3Tb {
     fill: #83a598;
 }
-.R5Q1ue .Bjyxod, .TeY52c .od3Rdc, .QOrOsd {
-}
-/* text coloor in delete message modal */
+/* text color in delete message modal */
  .g3VIld {
     color: #ffffff;
 }
