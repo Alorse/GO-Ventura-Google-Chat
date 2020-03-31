@@ -1,7 +1,5 @@
 /* Search Menu bg color, shape and dimensions */ .yoV6yd,
-/* Sidebar elemtents bg color when hovering */
-.PL5Wwe:focus, .PL5Wwe:hover:not(.tuKyod), .tuKyod:hover .LoYJxb, 
-/* avatar background */ .Fh7ONei, .HrFSGb.fXx9Lc
+/* Sidebar elements bg color when hovering */ .PL5Wwe:focus, .PL5Wwe:hover:not(.tuKyod), .tuKyod:hover .LoYJxb
 {
     background-color: #395567;
 }
@@ -10,7 +8,7 @@
     border-color: #395567;
 }
 /* Sidebar current channel */
-.IL9EXe.qs41qe {
+.teTAFe .qs41qe {
     background-color: #395567 !important;
 }
 /** modal */ .g3VIld,
@@ -57,10 +55,11 @@
 }
 .PL5Wwe.H7du2 .DQy0Rb, .PL5Wwe.H7du2 .QeRfYe,
 /* Chat top left logo text color */ #XMLID_8_-Clipped,
+/* Back button responsive */ .fKz7Od,
 /* Inactive status icon */ .vMbxHf,
 /* Seach Icon hover */ .GbZFNe:hover .vsxzuf
 {
-    fill: #ffffff !important;
+    fill: #ffffff;
 }
 /* Reduce size of New conv button */ .SfqTBc,
 /* Sidebar search button */.GbZFNe:hover,
@@ -92,25 +91,22 @@
 .yg4pvb::before {
     background: none;
 }
-/* history date "wczoraj" */
-.A2BXPe {
+/* chat name in chat window */ .tCUB4c,
+/* history date "wczoraj" */ .A2BXPe 
+{
     color: #458588;
 }
 /* tickbox in answer box */
 .hh4xKf {
     border: 7px solid #7c6f64;
 }
-/* chat name in chat window */ .tCUB4c,
 .erYYcb .t5F5nf:not(.jUASJf), a {
     color: #689d6a;
 }
 /* overlay when updating */
 .CMcgue {
+    background-color: #373737;
     background-color: rgba(55, 55, 55, 0.7);
-}
-/* active status icon */
-.Qgwczb {
-    background-color: #30b700;
 }
 /* aleep status icon */
 .dUJbze {
@@ -139,12 +135,6 @@
 .e3Duub, .e3Duub:hover, .e3Duub a, .e3Duub a:hover, .e3Duub a:link,
 .e3Duub a:visited {
     background-color: #83a598;
-}
-/* topbar */
-.Wu2udb, .Xs68kb {
-    background-color: #222A2F !important;
-    box-shadow: none !important;
-    -moz-box-shadow: none !important;
 }
 /* content */
 .FdpJL {
@@ -198,29 +188,46 @@
 {
     border-right: solid 1px #666666;
 }
-/* Title dropdown menu */
-.PkxUw {
+/* Simple notification text in groups chat */ .lRvMp,
+/* Subtitles dropdown menu */ .R5Q1ue .FCx0Ne,
+/* "Until" notifications */ .OAi7ze,
+/* Title dropdown menu */ .PkxUw,
+/* Time in messages */ .FvYVyf,
+/* Likes number */ .YK45Id
+{
     color: #c1c1c1; 
 }
 /* Line separator dropdown menu */
 .kCtYwe {
+    border-top: 1px solid white;
     border-top: 1px solid rgba(255,255,255,0.12);
+}
+/* Profile names in chats */
+.fWwrkf {
+    color: #00bda4;
+}
+/* active status icon */
+.Qgwczb {
+    background-color: #30b700;
 }
 .FS4hgd.iWO5td .ojqkvd, .FS4hgd.iWO5td, .LmMDfc.qs41qe, .dHI9xe.qs41qe,
 .dHI9xe.KKjvXb.KKjvXb, .LmMDfc.qs41qe .ojqkvd, .dHI9xe.qs41qe .ojqkvd.ojqkvd,
 .dHI9xe.KKjvXb.KKjvXb .ojqkvd {
     color: #30b700;
 }
-.YQsadf {
+/* Photos */ .YQsadf {
     border: 0.5px solid #666666;
 }
-.hqKA3c {
+/* New thread */ .hqKA3c,
+/* Add people & bots e */ .tkhyaf 
+{
     border: none;
 }
 .qnCNBb {
     color: #00897b;
 }
 .w63zXd:hover .NMPajd {
+    background-color: #458588;
     background-color: rgba(69,133,136, 0.922);
 }
 .DQy0Rb, .QeRfYe {
@@ -239,7 +246,7 @@
 .p9Cqzd {
     fill: #928374;
 }
-.Nj8aCb.Nj8aCb, .fKz7Od, .UZl8cf {
+.Nj8aCb.Nj8aCb, .UZl8cf {
     color: #7c6f64;
 }
 div .mUbCce:hover, div .mUbCce:focus {
