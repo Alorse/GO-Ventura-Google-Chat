@@ -1,8 +1,3 @@
-/* Search Menu bg color, shape and dimensions */ .yoV6yd,
-/* Sidebar elements bg color when hovering */ .PL5Wwe:focus, .PL5Wwe:hover:not(.tuKyod), .tuKyod:hover .LoYJxb
-{
-    background-color: #395567;
-}
 /* Make code snippets look like slack's */ .FMTudf,
 /* Make inline pre look like slack's */ .U8d2H {
     border-color: #395567;
@@ -55,11 +50,13 @@
 }
 .PL5Wwe.H7du2 .DQy0Rb, .PL5Wwe.H7du2 .QeRfYe,
 /* Chat top left logo text color */ #XMLID_8_-Clipped,
-/* Back button responsive */ .fKz7Od,
 /* Inactive status icon */ .vMbxHf,
 /* Seach Icon hover */ .GbZFNe:hover .vsxzuf
 {
     fill: #ffffff;
+}
+/* Back button responsive */ .fKz7Od{
+    fill: #c1c1c1;
 }
 /* Reduce size of New conv button */ .SfqTBc,
 /* Sidebar search button */.GbZFNe:hover,
@@ -103,12 +100,13 @@
 .erYYcb .t5F5nf:not(.jUASJf), a {
     color: #689d6a;
 }
-/* overlay when updating */
-.CMcgue {
+/* Overlay in Seach Menu */ .d6pS5.iWO5td .ffyVOd,
+/* overlay when updating */ .CMcgue 
+{
     background-color: #373737;
     background-color: rgba(55, 55, 55, 0.7);
 }
-/* aleep status icon */
+/* aleep status icon (Moon icon) */
 .dUJbze {
     fill: #d3869b;
 }
@@ -149,7 +147,7 @@
 .SfqTBc .jy2fzc, .cmEq8b .Zc1Emd, .cmEq8b .Z4BnXb, .aVw1Ob, .RiJ7yf, .Ftdlzd,
 .O6HEx, .oAzRtb, .xyysKb, .bKgC9d, .g3VIld, .dQ2Tsf .ZTmjQb,
 /* Sidebar "recent" or "starred" section names text size and color */ .aOHsTc,
-/* Search Menu "frequent" section text color and size */ .wAR34c,
+/* Search Menu "frequent" section text color */ .wAR34c,
 /* Make code snippets look like slack's */ .FMTudf,
 /* Search menu people list mail color */ .Kfe2Ub,
 /* Make inline pre look like slack's */ .U8d2H,
@@ -158,6 +156,9 @@
 /* topar chanel name, user name */ .nk7hB, .nk7hB .cAW0Vc,
 /* Notifications hours dropdown */ .KrrIce,
 /* Search menu text color */ .Uk0Bfe .zHQkBf, .Uk0Bfe .snByac, .dQ2Tsf .NXfF8b,
+/* Search Menu sections */ .BmI6nc .t5F5nf,
+/* Search Menu titles */ .s6FlWd,
+/* Search Menu names */ .ReIHZc .ZTmjQb,
 /* sidebar */ .HzTBCc
 {
     color: #ffffff;
@@ -168,7 +169,8 @@
 /* Background of dropdown menus */ .JPdR6b,
 /* Sidebar color */ .X9KLPc,
 /* Status hover */ .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus,
-/* sidebar */.HzTBCc,
+/* Sidebar */.HzTBCc,
+/* Search Bar BG */.hU65Ef,
 /* Topbar */ .QTQg5e
 {
     background-color: #222A2F;
@@ -202,18 +204,22 @@
     border-top: 1px solid white;
     border-top: 1px solid rgba(255,255,255,0.12);
 }
-/* Profile names in chats */
-.fWwrkf {
+/* Profile names in chats */ .fWwrkf
+{
     color: #00bda4;
 }
-/* active status icon */
-.Qgwczb {
+/* active status icon */ .Qgwczb 
+{
     background-color: #30b700;
 }
+/* "Unread" warning */ .FTuhNb .RW5Kg,
 .FS4hgd.iWO5td .ojqkvd, .FS4hgd.iWO5td, .LmMDfc.qs41qe, .dHI9xe.qs41qe,
 .dHI9xe.KKjvXb.KKjvXb, .LmMDfc.qs41qe .ojqkvd, .dHI9xe.qs41qe .ojqkvd.ojqkvd,
 .dHI9xe.KKjvXb.KKjvXb .ojqkvd {
     color: #30b700;
+}
+.OpmeVb .GfYBMd {
+    fill: #30b700;
 }
 /* Photos */ .YQsadf {
     border: 0.5px solid #666666;
