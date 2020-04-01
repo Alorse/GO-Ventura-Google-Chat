@@ -16,6 +16,7 @@
 }
 /* Reduce size of New conv button */ .SfqTBc,
 /* Sidebar search button */.GbZFNe:hover,
+/* Response suggestions */ .T9VbLe:hover, .T9VbLe:focus,
 /* Dropdown menus */ .JPdR6b,
 /* Status hover */ .RASpke:hover,
 /* Likes hover */ .dIC9Jb:hover
@@ -39,6 +40,7 @@
     border-bottom: solid 1px #666666;
 }
 /* Reduce size of New conv button */ .SfqTBc,
+/* Response suggestions */ .T9VbLe,
 /* Likes */ .dIC9Jb
 {
     border: 1px solid #666666;
@@ -60,14 +62,15 @@
 .yg4pvb::before {
     background: none;
 }
-/* badge with with number of folded messages */ .Jqvwfe,
+/* Badge with with number of folded messages */ .Jqvwfe,
 /* Make code snippets look like slack's */.FMTudf,
 /* Make inline pre look like slack's */ .U8d2H,
-/* answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe,
-/* answer border in channel */.dJ9vNe,
-/* modal button inactive */ .g3VIld .HvOprf.RDPZE, .e3Duub.RDPZE.RDPZE, .w63zXd.RDPZE.RDPZE .NMPajd,
-/* content */ .FdpJL,
-/* likes */ .dIC9Jb,
+/* Answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe,
+/* Answer border in channel */.dJ9vNe,
+/* Modal button inactive */ .g3VIld .HvOprf.RDPZE, .e3Duub.RDPZE.RDPZE, .w63zXd.RDPZE.RDPZE .NMPajd,
+/* Response suggestions */ .T9VbLe,
+/* Content */ .FdpJL,
+/* Likes */ .dIC9Jb,
 .rFrNMe:not(.Xavc3e) .Wic03c
 {
     background-color: #1d2021;
@@ -89,6 +92,7 @@
 /* New thread title in chat room */ .qnCNBb,
 /* topar chanel name, user name */ .nk7hB, .nk7hB .cAW0Vc,
 /* Notifications hours dropdown */ .KrrIce,
+/* Participants in group chats */ .CmMf8e,
 /* Search menu text color */ .Uk0Bfe .zHQkBf, .Uk0Bfe .snByac, .dQ2Tsf .NXfF8b,
 /* New thread button text */ .aVw1Ob, .SfqTBc .jy2fzc,
 /* Text in seach results */ .d4FIEb .ajCeRb .QIJiHb,
@@ -119,9 +123,9 @@
 /* Top left corner section (with title) background color */ .Riuhhf,
 /* Background of dropdown menus */ .JPdR6b,
 /* Sidebar color */ .X9KLPc,
+/* Search Bar BG */ .hU65Ef,
 /* Status hover */ .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus,
-/* Sidebar */.HzTBCc,
-/* Search Bar BG */.hU65Ef,
+/* Sidebar */ .HzTBCc,
 /* Topbar */ .QTQg5e
 {
     background-color: #222A2F;
@@ -187,6 +191,8 @@
     background-color: rgba(69,133,136, 0.922);
 }
 /* Chat name in chat window */ .tCUB4c,
+/* Unread text in chat room */ .Fv5sh,
+/* Response suggestions */ .ubzhQb,
 /* History date "wczoraj" */ .A2BXPe 
 {
     color: #458588;
@@ -196,6 +202,10 @@
 .g3VIld .HvOprf, .e3Duub, 
 .nxYf0b, .e3Duub, .wmbLw.N2RpBe > .MLPG7 {
     background-color: #458588;
+}
+/* Unread text in chat room */
+.z9ucM .heceU {
+    fill: #458588;
 }
 /* Bell notifications */ 
 .DQy0Rb {
