@@ -185,6 +185,10 @@
     color: #161b1d;
     background-color: #458588;
 }
+/* Border for photos in group chats */
+.gguVqe .iXHk0b .YQsadf {
+    box-shadow: 2px 0 #161b1d;
+}
 /* Jump to bottom Button */
 .w63zXd:hover .NMPajd {
     background-color: #458588;
