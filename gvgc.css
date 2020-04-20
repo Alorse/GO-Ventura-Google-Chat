@@ -34,11 +34,12 @@
 .QTQg5e {
     border-bottom: solid 1px #666666;
 }
-/* Reduce size of New conv button */ .SfqTBc,
+/* Images and links */ .yGeRMb, .KuG0bc, .Pj9rof,
+/* New conv button */ .SfqTBc,
 /* Response suggestions */ .T9VbLe,
 /* Likes */ .dIC9Jb
 {
-    border: 1px solid #666666;
+    border-color: #666666;
 }
 /* content */
 .FdpJL {
