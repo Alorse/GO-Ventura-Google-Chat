@@ -25,7 +25,7 @@
 /* Badge with with number of folded messages */ .Jqvwfe,
 /* Answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe,
 /* Answer border in channel */ .dJ9vNe,
-/* BG threads in chat rooms */ .dsoUjb, .cZICLc:hover .dsoUjb,
+/* BG threads in chat rooms */ .dsoUjb,
 /* active status */ .RASpke, .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus
 {
     border: solid 1px #666666;
@@ -76,7 +76,7 @@
 /* Text in seach results */ .d4FIEb .ajCeRb .QIJiHb,
 /* Search Menu sections */ .BmI6nc .t5F5nf,
 /* Search Menu titles */ .s6FlWd,
-/* Text preview links */ .hlrRUb,
+/* Text preview links */ .hlrRUb, .kmatHb,
 /* Search Menu names */ .ReIHZc .ZTmjQb, .ReIHZc .NXfF8b,
 /* Text in chats */ .cmEq8b .Zc1Emd,
 /* Chat title */  .wWf0Bc,
@@ -133,7 +133,10 @@
 .teTAFe .qs41qe {
     background-color: #395567 !important;
 }
-
+/* BG chat text */
+.hu21Y:hover {
+    background-color: #273138 !important;
+}
 .FS4hgd.iWO5td.iWO5td,
 /* Reduce size of New conv button */ .SfqTBc,
 /* BG threads in chat rooms */ .dsoUjb, .dsoUjb .oGsu4:hover .iKCcE,
@@ -143,7 +146,7 @@
 .WQKmIb .byY7Yb, .B2Lwp, .zPVzl, .vmpzOc, .WQKmIb .Bl2pUd,
 .DLc2vb .Bqp03e, .oGsu4, .HTZBof, .AflJR, .jGyvbd .jO0Dzb,
 .z80M1:hover, .DLc2vb .Bqp03e, .XganBc,
-.nF6pT.FwR7Pc .iKCcE, .hu21Y:hover,
+.nF6pT.FwR7Pc .iKCcE,
 /* Top left corner section (with title) background color */ .Riuhhf,
 /* Background of dropdown menus */ .JPdR6b,
 /* BG Preview links */ .SXFjfb,
@@ -187,6 +190,7 @@
     background-color: #458588;
     background-color: rgba(69,133,136, 0.922);
 }
+.oG5Srb .RveJvd.RveJvd,
 /* Chat name in chat window */ .tCUB4c,
 /* Unread text in chat room */ .Fv5sh,
 /* Response suggestions */ .ubzhQb,
@@ -196,10 +200,11 @@
 }
 /* Jump to bottom */
 .w63zXd .NMPajd, .w63zXd:active:active .NMPajd, 
-.g3VIld .HvOprf, .e3Duub, 
+.g3VIld .HvOprf, .e3Duub, .g3VIld .HvOprf:hover, /* Buttons in popup */
 .nxYf0b, .e3Duub, .wmbLw.N2RpBe > .MLPG7 {
     background-color: #458588;
 }
+.oG5Srb .RveJvd.RveJvd,
 /* Unread text in chat room */
 .z9ucM .heceU {
     fill: #458588;
