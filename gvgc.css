@@ -1,10 +1,32 @@
+:root {
+    --red: #FB4934;
+    --cyan: #00BDA4;
+    --pink: #D3869B;
+    --darken: #373737;
+    --gray: #666666;
+    --b-gray: 1px solid var(--gray);
+    --sea-nymph: #83A598;
+    --pale-slate:#CAC4C9;
+    --faded-jade: #458588;
+    --fiord: #395567;
+    --limeade: #30B700;
+    --dark: #222A2F;
+    --outer-space: #273138;
+    --darker: #161B1D;
+    --silver: #C1C1C1;
+    --white: #FFFFFF;
+    --t: transparent;
+    --version: "GO Ventura Google Chat v0.3.0 — April 24st, 2020";
+    --message: "variables usage, more info in the changelog.";
+    --changes: "https://github.com/Alorse/GO-Ventura-Google-Chat";
+    --radius: 4px;
+    --sh-30: rgba(195,191,189,0.30);
+    --sh-15: rgba(195,191,189,0.30);
+    --bg-image: url("");
+  }
 /* Chat top left logo text color */
  .nHjhsd {
     opacity: 0.8;
-}
-/* Draw white line between the sidebar sections */
-.PL5Wwe + .wJNchb, .teTAFe:not(.fXx9Lc) + .vHL80e .aOHsTc {
-    border-top: solid 1px #928374;
 }
 /* Reduce size of New conv button */ .SfqTBc,
 /* Sidebar search button */.GbZFNe,
@@ -14,13 +36,11 @@
 /* Status hover */ .RASpke:hover,
 /* Likes hover */ .dIC9Jb:hover
 {
-    box-shadow: 0 1px 2px 0 rgba(195,191,189,0.30), 
-        0 1px 3px 1px rgba(195,191,189,0.15);
+    box-shadow: 0 1px 2px 0 var(--sh-30), 0 1px 3px 1px var(--sh-15);
 }
 .RnpT2b:hover .SfqTBc, 
 /* Sidebar search button */ .GbZFNe:hover {
-    box-shadow: 0 1px 3px 0 rgba(195,191,189,0.30), 
-        0 4px 8px 3px rgba(195,191,189,0.15);
+    box-shadow: 0 1px 3px 0 var(--sh-30), 0 4px 8px 3px var(--sh-15);
 }
 /* Badge with with number of folded messages */ .Jqvwfe,
 /* Answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe,
@@ -28,31 +48,31 @@
 /* BG threads in chat rooms */ .dsoUjb,
 /* active status */ .RASpke, .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus
 {
-    border: solid 1px #666666;
+    border: var(--b-gray);
 }
 /* topbar */
 .QTQg5e {
-    border-bottom: solid 1px #666666;
+    border-bottom: var(--b-gray);
 }
 /* Images and links */ .yGeRMb, .KuG0bc, .Pj9rof,
 /* New conv button */ .SfqTBc,
 /* Response suggestions */ .T9VbLe,
 /* Likes */ .dIC9Jb
 {
-    border-color: #666666;
+    border-color: var(--gray);
 }
 /* content */
 .FdpJL {
-    border-left: 1px solid #666666;
-    border-top: 1px solid #666666;
+    border-left: var(--b-gray);
+    border-top: var(--b-gray);
 }
 /* Top left corner section (with title) background color */ .Riuhhf,
 /* Sidebar color */ .X9KLPc
 {
-    border-right: solid 1px #666666;
+    border-right: var(--b-gray);
 }
 /* Photos */ .YQsadf {
-    border: 0.5px solid #666666;
+    border: 0.5px solid var(--gray);
 }
 /* Follow */
 .yg4pvb::before {
@@ -76,14 +96,17 @@
 /* New thread button text */ .aVw1Ob, .SfqTBc .jy2fzc,
 /* Text in seach results */ .d4FIEb .ajCeRb .QIJiHb,
 /* Search Menu sections */ .BmI6nc .t5F5nf,
+/* Add people to group */ .Abjkyf .LI2rz,
 /* Search Menu titles */ .s6FlWd,
 /* Text preview links */ .hlrRUb, .kmatHb,
 /* Search Menu names */ .ReIHZc .ZTmjQb, .ReIHZc .NXfF8b,
+/* Labels in popups */ .L21Pje .fg49Gd,
+/* Titles in popups */ .wLzlc,
 /* Text in chats */ .cmEq8b .Zc1Emd,
 /* Chat title */  .wWf0Bc,
 /* Sidebar */ .HzTBCc
 {
-    color: #ffffff;
+    color: var(--white);
 }
 /* Chat top left logo text color */ .nHjhsd,
 /* Close icon in new thread */ .p9Cqzd,
@@ -91,12 +114,11 @@
 /* Global icons */ .mUbCce:hover, .mUbCce:focus, .JRtysb:hover .snByac,
 /* Seach Icon hover */ .GbZFNe:hover .vsxzuf
 {
-    fill: #ffffff !important;
+    fill: var(--white) !important;
 }
 /* Line separator dropdown menu */
 .kCtYwe {
-    border-top: 1px solid #ffffff;
-    border-top: 1px solid rgba(255,255,255,0.12);
+    border-top: 1px solid var(--white);
 }
 /* Simple notification text in groups chat */ .lRvMp,
 /* Subtitles dropdown menu */ .R5Q1ue .FCx0Ne,
@@ -106,37 +128,37 @@
 /* Time in messages */ .FvYVyf,
 /* Likes number */ .YK45Id
 {
-    color: #c1c1c1; 
+    color: var(--silver); 
 }
 /* Back button responsive & Icons in textbox */ .fKz7Od,
 /* Icons in internal chat Menu */ .o50UJf, .rEu3Tb
 {
-    fill: #c1c1c1;
+    fill: var(--silver);
 }
 /* active status icon */
 .Qgwczb {
-    background-color: #30b700;
+    background-color: var(--limeade);
 }
 /* "Unread" warning */ .FTuhNb .RW5Kg,
 .FS4hgd.iWO5td .ojqkvd, .FS4hgd.iWO5td, .LmMDfc.qs41qe, .dHI9xe.qs41qe,
 .dHI9xe.KKjvXb.KKjvXb, .LmMDfc.qs41qe .ojqkvd, .dHI9xe.qs41qe .ojqkvd.ojqkvd,
 .dHI9xe.KKjvXb.KKjvXb .ojqkvd {
-    color: #30b700;
+    color: var(--limeade);
 }
 .OpmeVb .GfYBMd {
-    fill: #30b700;
+    fill: var(--limeade);
 }
 /* Make code snippets look like slack's */ .FMTudf,
 /* Make inline pre look like slack's */ .U8d2H {
-    border-color: #395567;
+    border-color: var(--fiord);
 }
 /* Sidebar current channel */
 .teTAFe .qs41qe {
-    background-color: #395567 !important;
+    background-color: var(--fiord) !important;
 }
 /* BG chat text */
 .hu21Y:hover {
-    background-color: #273138 !important;
+    background-color: var(--outer-space) !important;
 }
 .FS4hgd.iWO5td.iWO5td,
 /* Reduce size of New conv button */ .SfqTBc,
@@ -157,12 +179,12 @@
 /* Sidebar */ .HzTBCc,
 /* Topbar */ .QTQg5e
 {
-    background-color: #222A2F;
+    background-color: var(--dark);
 }
 /* Modal */ .g3VIld,
 .dKv0S .i5PBGe
 {
-    border-color: #222A2F;
+    border-color: var(--dark);
 }
 /* Badge with with number of folded messages */ .Jqvwfe,
 /* Sidebar search button hovering bg color */ .GbZFNe, .GbZFNe:focus, .GbZFNe:hover,
@@ -175,21 +197,20 @@
 /* Content */ .FdpJL,
 .rFrNMe:not(.Xavc3e) .Wic03c
 {
-    background-color: #161b1d;
+    background-color: var(--darker);
 }
 /* Following text */
 .zxHSSc, .zxHSSc.FuHVqe {
-    color: #161b1d;
-    background-color: #458588;
+    color: var(--darker);
+    background-color: var(--faded-jade);
 }
 /* Border for photos in group chats */
 .gguVqe .iXHk0b .YQsadf {
-    box-shadow: 2px 0 #161b1d;
+    box-shadow: 2px 0 var(--darker);
 }
 /* Jump to bottom Button */
 .w63zXd:hover .NMPajd {
-    background-color: #458588;
-    background-color: rgba(69,133,136, 0.922);
+    background-color: var(--faded-jade);
 }
 .oG5Srb .RveJvd.RveJvd,
 /* Chat name in chat window */ .tCUB4c,
@@ -197,57 +218,52 @@
 /* Response suggestions */ .ubzhQb,
 /* History date "wczoraj" */ .A2BXPe 
 {
-    color: #458588;
+    color: var(--faded-jade);
 }
 /* Jump to bottom */
 .w63zXd .NMPajd, .w63zXd:active:active .NMPajd, 
 .g3VIld .HvOprf, .e3Duub, .g3VIld .HvOprf:hover, /* Buttons in popup */
 .nxYf0b, .e3Duub, .wmbLw.N2RpBe > .MLPG7 {
-    background-color: #458588;
+    background-color: var(--faded-jade);
 }
 .oG5Srb .RveJvd.RveJvd,
 /* Unread text in chat room */
 .z9ucM .heceU {
-    fill: #458588;
+    fill: var(--faded-jade);
 }
 /* Bell notifications */ 
 .DQy0Rb {
-    fill: #cac4c9;
+    fill: var(--pale-slate);
 }
 /* Time and menu buttons and clock for channels inactive and active colors */
 .sFuxxd {
-    color: #cac4c9;
+    color: var(--pale-slate);
 }
 /* Hitory Off icon */
 .N2RpBe .espmsb {
-    border-color: #83a598;
+    border-color: var(--sea-nymph);
 }
 /* Add new person or bot */
 .e3Duub, .e3Duub:hover, .e3Duub a, .e3Duub a:hover, .e3Duub a:link,
 .e3Duub a:visited {
-    background-color: #83a598;
-}
-/* Tickbox in answer box */
-.hh4xKf {
-    border: 7px solid #7c6f64;
+    background-color: var(--sea-nymph);
 }
 /* Overlay in Seach Menu */ .d6pS5.iWO5td .ffyVOd,
 /* Overlay when updating */ .CMcgue 
 {
-    background-color: #373737;
-    background-color: rgba(55, 55, 55, 0.7);
+    background-color: var(--darken);
 }
 /* Aleep status icon (Moon icon) */
 .dUJbze {
-    fill: #d3869b;
+    fill: var(--pink);
 }
 /* Profile names in chats */
 .fWwrkf {
-    color: #00bda4;
+    color: var(--cyan);
 }
 /* Sidebar elements text color for channels with unread messages */
 .teTAFe .H7du2 .t5F5nf {
-    color: #fb4934;
+    color: var(--red);
 }
 /* Add people & bots e */ .tkhyaf,
 /* "Unread" warning */ .z9ucM,
