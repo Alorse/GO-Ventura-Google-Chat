@@ -3,7 +3,7 @@
     --cyan: #00BDA4;
     --pink: #D3869B;
     --darken: #373737;
-    --gray: #666666;
+    --gray: #424242;
     --b-gray: 1px solid var(--gray);
     --sea-nymph: #83A598;
     --pale-slate:#CAC4C9;
@@ -34,6 +34,7 @@
 /* Dropdown menus */ .JPdR6b,
 /* BG threads in chat rooms */ .cZICLc .dsoUjb.FwR7Pc,
 /* Status hover */ .RASpke:hover,
+/* Threads box */ .cZICLc:hover .dsoUjb,
 /* Likes hover */ .dIC9Jb:hover
 {
     box-shadow: 0 1px 2px 0 var(--sh-30), 0 1px 3px 1px var(--sh-15);
@@ -72,7 +73,7 @@
     border-right: var(--b-gray);
 }
 /* Photos */ .YQsadf {
-    border: 0.5px solid var(--gray);
+    /* border: 0.5px solid var(--gray); */
 }
 /* Follow */
 .yg4pvb::before {
@@ -160,24 +161,19 @@
 .hu21Y:hover {
     background-color: var(--outer-space) !important;
 }
-.FS4hgd.iWO5td.iWO5td,
-/* Reduce size of New conv button */ .SfqTBc,
-/* BG threads in chat rooms */ .dsoUjb, .dsoUjb .oGsu4:hover .iKCcE,
-/* Modal */ .g3VIld,
-/* Likes */ .dIC9Jb,
-/* Search bar, right panel, private message, answer bar - bottom */
-.WQKmIb .byY7Yb, .B2Lwp, .zPVzl, .vmpzOc, .WQKmIb .Bl2pUd,
-.DLc2vb .Bqp03e, .oGsu4, .HTZBof, .AflJR, .jGyvbd .jO0Dzb,
-.z80M1:hover, .DLc2vb .Bqp03e, .XganBc,
-.nF6pT.FwR7Pc .iKCcE,
 /* Top left corner section (with title) background color */ .Riuhhf,
+/* Reduce size of New conv button */ .SfqTBc,
 /* Background of dropdown menus */ .JPdR6b,
+/* BG threads in chat rooms */ .dsoUjb, .oGsu4, .HTZBof, .cmEq8b.COKy9b,
 /* BG Preview links */ .SXFjfb,
 /* Sidebar color */ .X9KLPc,
 /* Search Bar BG */ .hU65Ef,
 /* Status hover */ .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus,
+/* Answer bar */ .WQKmIb .Bl2pUd, .WQKmIb .byY7Yb, .XganBc,
 /* Sidebar */ .HzTBCc,
-/* Topbar */ .QTQg5e
+/* Topbar */ .QTQg5e,
+/* Modal */ .g3VIld,
+/* Likes */ .dIC9Jb
 {
     background-color: var(--dark);
 }
@@ -203,10 +199,7 @@
 .zxHSSc, .zxHSSc.FuHVqe {
     color: var(--darker);
     background-color: var(--faded-jade);
-}
-/* Border for photos in group chats */
-.gguVqe .iXHk0b .YQsadf {
-    box-shadow: 2px 0 var(--darker);
+    border: var(--b-gray);
 }
 /* Jump to bottom Button */
 .w63zXd:hover .NMPajd {
