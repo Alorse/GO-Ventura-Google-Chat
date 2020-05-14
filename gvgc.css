@@ -10,18 +10,19 @@
     --faded-jade: #458588;
     --fiord: #395567;
     --limeade: #30B700;
+    --everglade: #213A2D;
     --dark: #222A2F;
     --outer-space: #273138;
     --darker: #161B1D;
     --silver: #C1C1C1;
     --white: #FFFFFF;
     --t: transparent;
-    --version: "GO Ventura Google Chat v0.3.0 — April 24st, 2020";
-    --message: "variables usage, more info in the changelog.";
+    --version: "GO Ventura Google Chat v0.3.1 — April 24st, 2020";
+    --message: "Variables usage, more info in the changelog.";
     --changes: "https://github.com/Alorse/GO-Ventura-Google-Chat";
     --radius: 4px;
-    --sh-30: rgba(195,191,189,0.30);
-    --sh-15: rgba(195,191,189,0.30);
+    --sh-30: rgba(105, 102, 100,0.30);
+    --sh-15: rgba(105, 102, 100,0.30);
     --bg-image: url("");
   }
 /* Chat top left logo text color */
@@ -29,10 +30,11 @@
     opacity: 0.8;
 }
 /* Reduce size of New conv button */ .SfqTBc,
+/* BG threads in chat rooms */ .cZICLc .dsoUjb.FwR7Pc,
 /* Sidebar search button */.GbZFNe,
 /* Response suggestions */ .T9VbLe:hover, .T9VbLe:focus,
 /* Dropdown menus */ .JPdR6b,
-/* BG threads in chat rooms */ .cZICLc .dsoUjb.FwR7Pc,
+/* Unread warning */ .FTuhNb,
 /* Status hover */ .RASpke:hover,
 /* Threads box */ .cZICLc:hover .dsoUjb,
 /* Likes hover */ .dIC9Jb:hover
@@ -42,6 +44,10 @@
 .RnpT2b:hover .SfqTBc, 
 /* Sidebar search button */ .GbZFNe:hover {
     box-shadow: 0 1px 3px 0 var(--sh-30), 0 4px 8px 3px var(--sh-15);
+}
+/* Shadow avatars in grupal chat */
+.gguVqe .iXHk0b .YQsadf {
+    box-shadow: 2px 0 var(--dark);
 }
 /* Badge with with number of folded messages */ .Jqvwfe,
 /* Answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe,
@@ -54,6 +60,17 @@
 /* topbar */
 .QTQg5e {
     border-bottom: var(--b-gray);
+}
+/* Line separator dropdown menu */
+.kCtYwe {
+    border-top: var(--b-gray);
+}
+/* BG for Google Apps icon */
+.gb_C.gb_md.gb_i {
+    background-color: var(--silver);
+}
+.FS4hgd.iWO5td.iWO5td {
+    background-color: var(--everglade);
 }
 /* Images and links */ .yGeRMb, .KuG0bc, .Pj9rof,
 /* New conv button */ .SfqTBc,
@@ -79,18 +96,16 @@
 .yg4pvb::before {
     background: none;
 }
-.z80M1, .cmEq8b .Z4BnXb, .RiJ7yf, .Ftdlzd,
-.O6HEx, .oAzRtb, .xyysKb, .bKgC9d, .g3VIld,
+body,
 /* Sidebar "recent" or "starred" section names text size and color */ .aOHsTc,
 /* Search Menu "frequent" section text color */ .wAR34c,
 /* Make code snippets look like slack's */ .FMTudf,
 /* Search menu people list mail color */ .Kfe2Ub,
 /* Make inline pre look like slack's */ .U8d2H,
 /* Text in textbox for search menu */ .rFrNMe:not(.Xavc3e):not(.e96Lvf) .zHQkBf, .vW0I1d, .uJSEJc, .bKgC9d, .rYdrs
-/* Reduce size of New conv button */ .SfqTBc,
+/* Top bar channel name, user name */ .nk7hB, .nk7hB .cAW0Vc, .cmEq8b .Z4BnXb,
 /* Channel name color in sidebar */ .t5F5nf,
 /* New thread title in chat room */ .qnCNBb,
-/* topar chanel name, user name */ .nk7hB, .nk7hB .cAW0Vc,
 /* Notifications hours dropdown */ .KrrIce,
 /* Participants in group chats */ .CmMf8e,
 /* Search menu text color */ .Uk0Bfe .zHQkBf, .Uk0Bfe .snByac, .dQ2Tsf .NXfF8b,
@@ -98,13 +113,17 @@
 /* Text in seach results */ .d4FIEb .ajCeRb .QIJiHb,
 /* Search Menu sections */ .BmI6nc .t5F5nf,
 /* Add people to group */ .Abjkyf .LI2rz,
+/* Hidden msgs summary */ .Jqvwfe,
 /* Search Menu titles */ .s6FlWd,
 /* Text preview links */ .hlrRUb, .kmatHb,
+/* Text in answer bar */ .oAzRtb,
 /* Search Menu names */ .ReIHZc .ZTmjQb, .ReIHZc .NXfF8b,
 /* Labels in popups */ .L21Pje .fg49Gd,
 /* Titles in popups */ .wLzlc,
+/* New conv button */ .SfqTBc,
+/* Text room menu */ .z80M1,
 /* Text in chats */ .cmEq8b .Zc1Emd,
-/* Chat title */  .wWf0Bc,
+/* Chat title */ .wWf0Bc,
 /* Sidebar */ .HzTBCc
 {
     color: var(--white);
@@ -117,13 +136,10 @@
 {
     fill: var(--white) !important;
 }
-/* Line separator dropdown menu */
-.kCtYwe {
-    border-top: 1px solid var(--white);
-}
 /* Simple notification text in groups chat */ .lRvMp,
 /* Subtitles dropdown menu */ .R5Q1ue .FCx0Ne,
 /* "Until" notifications */ .OAi7ze,
+/* Hidden msgs summary */ .zPVzl,
 /* Title dropdown menu */ .PkxUw,
 /* Reply in textbox */ .XweIZc,
 /* Time in messages */ .FvYVyf,
@@ -157,19 +173,22 @@
 .teTAFe .qs41qe {
     background-color: var(--fiord) !important;
 }
-/* BG chat text */
-.hu21Y:hover {
+/* Selected msg in priv chat */ .nF6pT.FwR7Pc .iKCcE,
+/* BG chat text */ .hu21Y:hover {
     background-color: var(--outer-space) !important;
 }
 /* Top left corner section (with title) background color */ .Riuhhf,
 /* Reduce size of New conv button */ .SfqTBc,
 /* Background of dropdown menus */ .JPdR6b,
-/* BG threads in chat rooms */ .dsoUjb, .oGsu4, .HTZBof, .cmEq8b.COKy9b,
+/* BG threads in chat rooms */ .dsoUjb, .oGsu4, .HTZBof, .cmEq8b.COKy9b, .jGyvbd .jO0Dzb, .zPVzl,
+/* Recomendations bar */ .hBj1Kc,
 /* BG Preview links */ .SXFjfb,
+/* New thread icon */ .B2Lwp,
 /* Sidebar color */ .X9KLPc,
 /* Search Bar BG */ .hU65Ef,
+/* Unread warning */ .FTuhNb,
 /* Status hover */ .RASpke:hover, .RASpke:focus, .RASpke:active, .RASpke:hover:focus,
-/* Answer bar */ .WQKmIb .Bl2pUd, .WQKmIb .byY7Yb, .XganBc,
+/* Answer bar */ .WQKmIb .Bl2pUd, .WQKmIb .byY7Yb, .XganBc, .I0LFzc.mS1Rod,
 /* Sidebar */ .HzTBCc,
 /* Topbar */ .QTQg5e,
 /* Modal */ .g3VIld,
@@ -186,10 +205,10 @@
 /* Sidebar search button hovering bg color */ .GbZFNe, .GbZFNe:focus, .GbZFNe:hover,
 /* Make code snippets look like slack's */.FMTudf,
 /* Make inline pre look like slack's */ .U8d2H,
-
 /* Background groups chat */ .Bl2pUd,
 /* Modal button inactive */ .g3VIld .HvOprf.RDPZE, .e3Duub.RDPZE.RDPZE, .w63zXd.RDPZE.RDPZE .NMPajd,
 /* Response suggestions */ .T9VbLe,
+/* "Unread" warning */ .z9ucM,
 /* Content */ .FdpJL,
 .rFrNMe:not(.Xavc3e) .Wic03c
 {
