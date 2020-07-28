@@ -17,8 +17,8 @@
     --silver: #C1C1C1;
     --white: #FFFFFF;
     --t: transparent;
-    --version: "GO Ventura Google Chat v0.3.1 — April 24st, 2020";
-    --message: "Variables usage, more info in the changelog.";
+    --version: "GO Ventura Google Chat v0.3.3 — July 28, 2020";
+    --message: "New Google Chat Style";
     --changes: "https://github.com/Alorse/GO-Ventura-Google-Chat";
     --radius: 4px;
     --sh-30: rgba(105, 102, 100,0.30);
@@ -57,6 +57,13 @@
 {
     border: var(--b-gray);
 }
+/* Answer border  private p2p room */ .PhFuQe.yXgmRe .dJ9vNe, .dJ9vNe
+{
+    background-color: rgba(14,12,11,0.749);
+}
+.I0LFzc {
+    border-radius: 0;
+}
 /* topbar */
 .QTQg5e {
     border-bottom: var(--b-gray);
@@ -66,7 +73,7 @@
     border-top: var(--b-gray);
 }
 /* BG for Google Apps icon */
-.gb_C.gb_md.gb_i {
+.gb_zc {
     background-color: var(--silver);
 }
 .FS4hgd.iWO5td.iWO5td {
@@ -106,31 +113,33 @@ body,
 /* Top bar channel name, user name */ .nk7hB, .nk7hB .cAW0Vc, .cmEq8b .Z4BnXb,
 /* Channel name color in sidebar */ .t5F5nf,
 /* New thread title in chat room */ .qnCNBb,
-/* Notifications hours dropdown */ .KrrIce,
+/* Notifications hours dropdown */ .KrrIce, .Ftdlzd,
 /* Participants in group chats */ .CmMf8e,
 /* Search menu text color */ .Uk0Bfe .zHQkBf, .Uk0Bfe .snByac, .dQ2Tsf .NXfF8b,
 /* New thread button text */ .aVw1Ob, .SfqTBc .jy2fzc,
 /* Text in seach results */ .d4FIEb .ajCeRb .QIJiHb,
 /* Search Menu sections */ .BmI6nc .t5F5nf,
-/* Add people to group */ .Abjkyf .LI2rz,
+/* Add people to group */ .Abjkyf .LI2rz, .RiJ7yf,
 /* Hidden msgs summary */ .Jqvwfe,
 /* Search Menu titles */ .s6FlWd,
 /* Text preview links */ .hlrRUb, .kmatHb,
 /* Text in answer bar */ .oAzRtb,
 /* Search Menu names */ .ReIHZc .ZTmjQb, .ReIHZc .NXfF8b,
-/* Labels in popups */ .L21Pje .fg49Gd,
+/* Labels in popups */ .L21Pje .fg49Gd, .O6HEx,
 /* Titles in popups */ .wLzlc,
 /* New conv button */ .SfqTBc,
 /* Text room menu */ .z80M1,
-/* Text in chats */ .cmEq8b .Zc1Emd,
+/* Text in chats */ .cmEq8b .Zc1Emd, .cmEq8b .Zc1Emd > div,
 /* Chat title */ .wWf0Bc,
-/* Sidebar */ .HzTBCc
+/* Sidebar */ .HzTBCc,
+.PL5Wwe.H7du2:not(.qs41qe) .RsRwdf,
+.cmEq8b .Z4BnXb .njhDLd
 {
-    color: var(--white);
+    color: var(--white) !important;
 }
 /* Chat top left logo text color */ .nHjhsd,
 /* Close icon in new thread */ .p9Cqzd,
-/* Inactive status icon */ .vMbxHf,
+/* Inactive status icon .vMbxHf, */
 /* Global icons */ .mUbCce:hover, .mUbCce:focus, .JRtysb:hover .snByac,
 /* Seach Icon hover */ .GbZFNe:hover .vsxzuf
 {
@@ -143,7 +152,8 @@ body,
 /* Title dropdown menu */ .PkxUw,
 /* Reply in textbox */ .XweIZc,
 /* Time in messages */ .FvYVyf,
-/* Likes number */ .YK45Id
+/* Likes number */ .YK45Id,
+.gWTIDe
 {
     color: var(--silver); 
 }
@@ -178,6 +188,7 @@ body,
     background-color: var(--outer-space) !important;
 }
 /* Top left corner section (with title) background color */ .Riuhhf,
+/* Badge with  number of folded messages */ .Jqvwfe,
 /* Reduce size of New conv button */ .SfqTBc,
 /* Background of dropdown menus */ .JPdR6b,
 /* BG threads in chat rooms */ .dsoUjb, .oGsu4, .HTZBof, .cmEq8b.COKy9b, .jGyvbd .jO0Dzb, .zPVzl,
@@ -192,19 +203,20 @@ body,
 /* Sidebar */ .HzTBCc,
 /* Topbar */ .QTQg5e,
 /* Modal */ .g3VIld,
-/* Likes */ .dIC9Jb
+/* Likes */ .dIC9Jb,
+.cmEq8b .Zc1Emd span
 {
-    background-color: var(--dark);
+    background-color: var(--dark) !important;
 }
 /* Modal */ .g3VIld,
 .dKv0S .i5PBGe
 {
     border-color: var(--dark);
 }
-/* Badge with with number of folded messages */ .Jqvwfe,
 /* Sidebar search button hovering bg color */ .GbZFNe, .GbZFNe:focus, .GbZFNe:hover,
 /* Make code snippets look like slack's */.FMTudf,
 /* Make inline pre look like slack's */ .U8d2H,
+/* Unread text in chat room */ .Fv5sh,
 /* Background groups chat */ .Bl2pUd,
 /* Modal button inactive */ .g3VIld .HvOprf.RDPZE, .e3Duub.RDPZE.RDPZE, .w63zXd.RDPZE.RDPZE .NMPajd,
 /* Response suggestions */ .T9VbLe,
@@ -230,7 +242,7 @@ body,
 /* Response suggestions */ .ubzhQb,
 /* History date "wczoraj" */ .A2BXPe 
 {
-    color: var(--faded-jade);
+    /*color: var(--faded-jade);*/
 }
 /* Jump to bottom */
 .w63zXd .NMPajd, .w63zXd:active:active .NMPajd, 
@@ -264,6 +276,10 @@ body,
 /* Overlay when updating */ .CMcgue 
 {
     background-color: var(--darken);
+}
+/* Overlay in Seach Menu */ .d6pS5 
+{
+    box-shadow: none;
 }
 /* Aleep status icon (Moon icon) */
 .dUJbze {
