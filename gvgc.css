@@ -23,7 +23,6 @@
     --radius: 4px;
     --sh-30: rgba(105, 102, 100,0.30);
     --sh-15: rgba(105, 102, 100,0.30);
-    --bg-image: url("");
   }
 /* Chat top left logo text color */
  .nHjhsd {
@@ -132,10 +131,15 @@ body,
 /* Text in chats */ .cmEq8b .Zc1Emd, .cmEq8b .Zc1Emd > div,
 /* Chat title */ .wWf0Bc,
 /* Sidebar */ .HzTBCc,
-.PL5Wwe.H7du2:not(.qs41qe) .RsRwdf,
+/* "Unread" warning */ .Fv5sh,
+.PL5Wwe.H7du2:not(.qs41qe) .RsRwdf, .PL5Wwe.qs41qe:not(.H7du2) .RsRwdf,
 .cmEq8b .Z4BnXb .njhDLd
 {
     color: var(--white) !important;
+}
+/* "Unread" line */ .Gkq5zb
+{
+    background-color: var(--white);
 }
 /* Chat top left logo text color */ .nHjhsd,
 /* Close icon in new thread */ .p9Cqzd,
@@ -204,7 +208,7 @@ body,
 /* Topbar */ .QTQg5e,
 /* Modal */ .g3VIld,
 /* Likes */ .dIC9Jb,
-.cmEq8b .Zc1Emd span
+.cmEq8b .Zc1Emd span:not(.NhKrqd)
 {
     background-color: var(--dark) !important;
 }
@@ -228,9 +232,13 @@ body,
 }
 /* Following text */
 .zxHSSc, .zxHSSc.FuHVqe {
-    color: var(--darker);
-    background-color: var(--faded-jade);
-    border: var(--b-gray);
+    color: var(--silver);
+    background-color: var(--gray);
+	border-color: transparent;
+}
+.FDq60b:hover .zxHSSc, .FDq60b:focus .zxHSSc, .FDq60b:hover:focus .zxHSSc {
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(195,191,189,0.30), 0 1px 3px 1px rgba(195,191,189,0.15);
 }
 /* Jump to bottom Button */
 .w63zXd:hover .NMPajd {
@@ -239,10 +247,10 @@ body,
 .oG5Srb .RveJvd.RveJvd,
 /* Chat name in chat window */ .tCUB4c,
 /* Unread text in chat room */ .Fv5sh,
-/* Response suggestions */ .ubzhQb,
-/* History date "wczoraj" */ .A2BXPe 
+/* Response suggestions */ .ubzhQb
+/* History date "wczoraj" .A2BXPe  */
 {
-    /*color: var(--faded-jade);*/
+    color: var(--faded-jade);
 }
 /* Jump to bottom */
 .w63zXd .NMPajd, .w63zXd:active:active .NMPajd, 
